@@ -1,0 +1,14 @@
+button {
+    -webkit-appearance: button;
+    appearance: button;
+    width: auto;
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+    outline: 0;
+    background: 0 0;
+    cursor: pointer;
+    &:focus {
+        outline: none;
+    }
+}

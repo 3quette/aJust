@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Reduce Medical Bills</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/homeStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/AppealStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/MentalHealthStyle.css">
+  </head>
+  <body>
+  	<div>
+<!-- SECTION 1 -->
+<div class="section-1" style="background-color: #f2f6fb;">
+ <header>
+   <div >
+     <div class="row">
+       <div class="col-md-12">
+         
+  <!-- NAVBAR     -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="Home.html"><img src="images/logo-1.svg"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="Home.html">How it works?<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="Appeal.html">Appealing a denied claim</a></li>
+              <li><a href="MentalHealth.html">Mental Health claims</a></li>
+              <li><a href="Bill.html">Bill Negotiation</a></li>
+            </ul>
+          </li>
+          <li><a href="About.html">About us</a></li>
+          <li><a href="Pricing.html">Pricing</a></li>
+          <li><a href="FAQ.html">FAQ</a></li>
+          <li ><a href="Blog.html">Blog</a></li>
+        </ul>
+     
+      </div>
+    </div>
+  </nav>
+</header>
+  <!-- SECTION 1 -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="sect-head">
+          <h1>Overwhelmed
+            with medical bills?</h1>
+            <p style="font-size: 18px;">Lower your hospital bill up to 80% - 90%, even if you have insurance. We can review your bills for errors and negotiate to keep money in your pocket.
+            </p>
+            <p style="font-size: 18px;">The best part? It's 100% free unless we find you savings.</p>
+            <button class="call_btn .btn-primary btn-lg">Call us now: (855) 657-3311</button>
+            <button class="text_btn .btn-primary btn-lg">Text us</button>
+        </div>
+      </div>
+      <div class="home-img col-md-6">
+        <img src="images/header-banner.avif"/>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- SECTION 2 -->
+<div class="section-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sect3-head">
+                    <h2>What is the size of your denied claim or medical bill?</h2>
+                </div>
+  
+                <!-- Form 1-->
+                <div id="form1" >
+                  <ul>
+                 <li><label><input type="button" name="how-large" value="$100 - $5,000"></label></li>
+                 <li><label><input type="button" name="option" value="$5,000 - $10,000"></label></li>
+                  <li><label><input type="button" name="option" value="$10,000 - $50,000"></label></li>
+                  <li><label><input type="button" name="option" value="$50,000+ "></label></li>
+                  <li><button class="btn btn-primary" onclick="showForm(2)">Next</button></li>
+                </ul>
+              </div>
+  
+                <!-- Form 2-->
+                <div id="form2" style="display: none;">
+                    <h3>What type of medical bill / claim do you have?</h3>
+                    <ul>
+                   <li><label><input type="radio" name="option1" value="answer1">Medical</label></li>
+                   <li><label><input type="radio" name="option2" value="answer2"> Dental</label></li>
+                    <li><label><input type="radio" name="option3" value="answer3"> Vision</label></li>
+                    <li><label><input type="radio" name="option1" value="answer1"> Physical Therapy</label></li>
+                    <li><label><input type="radio" name="option1" value="answer1"> Mental Health</label></li>
+                    <li><label><input type="radio" name="option1" value="answer1"> Substance Issue</label></li>
+                    <li><label><input type="radio" name="option1" value="answer1"> Ambulance Services</label></li>
+                    <li><label><input type="radio" name="option1" value="answer1"> Prescription</label></li>
+                    <li><label><input type="radio" name="option1" value="answer1"> Lab</label></li>
+                    <li><label><input type="radio" name="option1" value="answer1"> Other</label></li>
+                  </ul>
+                   
+  
+                    <button class="btn btn-primary" onclick="showForm(3)">Next</button>
+                </div>
+  
+                <!-- Form 3-->
+                <div id="form3"  style="display: none;">
+                  <form class="form-group">
+                 <div class="form3-head"> <h3>Good news! We think we can help you.</h3>
+                  <img class="pad-img" src="images/ico-claim-paid.svg"/></div>
+                  <div>
+                  <button class="call-btn"><p>Talk to an expert now:</p> <h3>(855) 657-3311</h3></button>
+                  </div>
+                  <div class="call-txt">
+                    <p>or let us contact you</p>
+                  </div>
+                  <div>
+                    <!-- <label for="fname">First Name:</label></br> -->
+                    <input type="text" id="fname" name="fname" aria-required="true" placeholder="First name">
+                    </div>
+  
+                    <div>
+                    <!-- <label for="lname">Last Name:</label></br> -->
+                    <input type="text" id="lname" name="lname" aria-required="true" placeholder="Last name">
+                    </div>
+  
+                    <div>
+                    <!-- <label for="email">Email:</label></br> -->
+                    <input type="email" id="email" name="email" aria-required="true" placeholder="Email">
+                    </div>
+  
+                    <div>
+                    <!-- <label for="phone">Phone:</label></br> -->
+                    <input type="phone" id="phone" name="phone" aria-required="true" placeholder="Phone">
+                    </div>
+  
+                    <div>
+                      <textarea  rows="5" id="issue-txt"  placeholder="When did the service occur?Did you have insurance at the time? Have you appealed any decisions by the insurance company?"></textarea>
+                    </div>
+  
+                    <button id="submit-btn" class="btn btn-primary" onclick="submitForm()">Submit</button>
+                    <div class="privacy-txt">
+                      <p>We take your privacy very seriously. We do not sell your information</br> and use it solely to contact you.</p></div>
+                  </form>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- SECTION 3 -->
+<div class="section-10">
+    <div class="container">
+      <div class="row">
+       <div class="price-head">
+          <h2>We bet we can save you money</h2>
+          <p>It’s 100% free if we don’t</p>
+        </div>
+          <div class="price-mental col-md-6">
+          <div class=" pricing-tab-mental">
+            <div class="half_box">
+                <p>
+                    You pay only
+                </p>
+                <h3>
+                    20%
+                </h3>
+                <p>
+                    of what you save
+                </p>
+            </div>
+            <div class="half_box">
+                <ul>
+                    <li>No upfront cost</li>
+                    <li>No hidden fees</li>
+                    <li>Easy, quick sign up</li>
+                </ul>
+            </div>
+  
+            
+          </div>
+          <button class="form-btn .btn-lg" style="text-align: center; color: white; background-color: #00cab2;">Get your money back</button>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+<!-- SECTION 4 -->
+<div class="section-9">
+    <div class="container">
+      <div class="row">
+        <div class="mental-bill-img col-md-6">
+          <img src="images/upto-80.avif" />
+         
+        </div>
+        <div class="col-md-6">
+          <div class="sect9-head">
+            <h2>Up to 80% of all medical bills can have errors</h2>
+            <p>Studies of healthcare billing have found 49% to 80% of bills include at least one mistake. From duplicate 
+                billing to incorrect coding and billing for services not rendered, there are several ways that you might be
+                 overcharged for healthcare.</p>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- SECTION-5-->
+<div class="section-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="sect9-head" style="margin-top: 183px;">
+            <h2>aJust negotiates for you</h2>
+            <p>We’re here for you every step of the way. We communicate 
+                and negotiate with hospitals and providers so you don’t have to. 
+                Almost 100% of the time we can significantly reduce your bill.</p>
+          </div>
+        </div>
+        <div class="bill-neg-img col-md-6">
+          <img src="images/ajust-negotiates.avif"/>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- SECTION 6 -->
+<div class="section-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="sect3-head" style="margin-bottom: 50px;">
+            <h2>We will handle it</h2>
+          </div>
+  
+      
+          <div class="handle-bn-row row">
+            <div class="col-md-4">
+
+    <div class="handle-bn-one">
+        <img src="images/ico-analyze-1.svg">
+        <p>Analyze the bill and determine approach</p>
+    </div>
+
+</div>
+            <div class="col-md-4">
+
+    <div class="handle-bn-one">
+        <img src="images/ico-handshake.svg">
+        <p>Communicate and negotiate with the hospital / provider on your behalf</p>
+    </div>
+
+</div>
+            <div class="col-md-4">
+
+    <div class="handle-bn-one">
+        <img src="images/ico-money-box.svg">
+         <p>Save up to 90% on your Medical Bills</p>
+    </div>
+
+</div>
+        </div>
+  
+        </div>
+      </div>
+    </div>
+  
+  
+  </div>
+<!-- SECTION 7 -->
+<div class="section-12">
+  <div class="container">
+    <div class="row">
+     
+        <div class="handle col-md-12">
+          
+            <h1>Let us handle it</h1>
+            <div class="handle-btn">
+                    <button class="call_btn .btn-primary btn-lg">Call us now: (855) 657-3311</button>
+                    <button class="text_btn .btn-primary btn-lg">Text us</button>
+               
+            </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- SECTION 8 -->
+<div class="section-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="sect2-head">
+            <h2>FAQ</h2>
+  
+  
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                      What is a health insurance claim?</a>
+                  </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse ">
+                  <div class="panel-body">
+                    <p>A health insurance claim is a request submitted to your health insurance provider – 
+                      typically by your health care provider but sometimes by you – that seeks reimbursement for the cost of the care received.</p>
+                      <p>For example, if you go to your family doctor for an annual check-up that involves a blood test and hearing exam, your 
+                      doctor’s office will submit a list of costs to your insurance company for each service that was provided. Your insurance 
+                      provider will then determine what percentage of the costs you will be responsible for based on the co-pay, deductible,
+                       out of pocket maximum, and coverage of your plan. They will then pay the rest of the claim bill.</p>
+                </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                      What is a health insurance claim denial?</a>
+                  </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                  <div class="panel-body"><p>A health insurance claim denial is when your health insurer declares they 
+                    are not responsible for paying / reimbursing for the care that has already been provided. The responsibility to pay 
+                    the medical bill is then shifted back to you.</p></div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                      What is a pre-authorization denial?</a>
+                  </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Sometimes, certain health services require your health insurance provider to approve or deny responsibility
+                       before the healthcare service has been provided. This is called 
+                      a pre-authorization or prior authorization. You are able to fight a pre-authorization denial as well as a regular denial.</p></div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                      Why would a health insurance claim be denied?</a>
+                  </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>There are a variety of reasons, but ultimately with a medical claim denial,
+                       the health insurer is stating that the service an individual received does not fall under the health
+                       insurance plan. Here are a few reasons why a health insurance provider would determine they are not responsible 
+                       for paying the claim:</p>
+                       <ul>
+                        <li><strong>Prior Authorization Was Required:</strong> At times, a claim may be denied because prior authorization from the insurance provider was required but the request was not submitted before the service was received.</li>
+                        <li><strong>Missing or Incorrect Information:</strong> Mistakes happen! But when there are errors in a claim form—such as a misspelled name or missing piece of paperwork—a denial is likely. That is why it is important to double and even triple check information on your claim form and make sure that is it is filled out completely if you are the one submitting it.</li>
+                        <li><strong>Outdated Insurance Information:</strong> Claims can be denied due to outdated insurance information, such as sending the claim to the wrong insurance company.</li>
+                        <li><strong>Claim Was Filed Too Late:</strong> Most insurance companies have a window of time (6 months to 1 year) where they will accept claims. If you wait too long and miss the window, your claim is likely to be denied.</li>
+                        <li><strong>Services Not Covered:</strong> There can be exclusions to your plan and some procedures may not be covered by your policy, or there may be a limitation to the number of visits for a particular service.</li>
+                        </ul>
+                      </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                      How do I fight an insurance claim denial?</a>
+                  </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>While the process of fighting a medical claim denial varies from state to state, here are the basic steps you may follow:</p>
+                    <ul>
+                      <li><strong>Find out why the claim was denied.</strong> (You should receive an explanation in the mail, or may call your insurance provider to discover the reason.)</li>
+                      <li><strong>Go over your plan policy</strong> (Once you have an explanation for the denial, you may want to check it against the terms of your health insurance plan to make sure the terms were not violated.)</li>
+                      <li><strong>File an internal appeal</strong> (If you believe your claim has been wrongfully denied, you can ask to file an internal appeal with your health insurance provider. This process differs from company to company.)</li>
+                      <li><strong>File an external appeal</strong> (If you have been unsuccessful with an internal appeal, you can take your appeal to a third-party reviewer. Many states offer external reviews, as does the federal government’s Department of Health and Human Services)</li>
+                      </ul>
+                      <p>Fighting an insurance claim denial can be a time-consuming and exhausting process, especially if you are handling it alone. That’s why using aJust’s services can take the burden off your shoulders while also setting you up for success.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                      How long does the appeal process take?</a>
+                  </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse ">
+                  <div class="panel-body">
+                    <p>For <strong>internal appeals</strong>, your health insurance company must respond / make a decision 
+                      within 60 days if it’s an appeal for a service you have already received. If you have
+                       yet to receive the service and it’s a pre-authorized denial, your health insurance company must make a decision within 30 days.</p>
+                       <p>For external appeals, decisions are typically made within 45 days of receiving the request.
+                          In some cases you may be able to expedite the external review and receive an answer in less than 72 hours.</p>
+                </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+                      Do I get unlimited attempts to fight and appeal a denied health insurance claim?</a>
+                  </h4>
+                </div>
+                <div id="collapse7" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>In short, no. Your health insurer may allow unlimited appeals for their appeal; 
+                      however, you are often permitted only one appeal for external appeals.</p></div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+                      Why should I select aJust to help me fight my health insurance denial?</a>
+                  </h4>
+                </div>
+                <div id="collapse8" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>aJust is purpose-built to help Americans fight and win their health insurance appeals. Insurance
+                       companies have benefitted from a confusing, complicated, and painful appeal process for far too long. At aJust, we’re experts in how the appeal process works and make sure we file the appeal in a way that maximizes your chances of getting your money back. You can sit back and<br>
+                      relax while we do the dirty work of fighting your denial.</p>
+                      <p>Plus, because you usually have just one shot at getting your appeal right, it’s important to set your case up for success.
+                         At aJust, we make sure your appeal is handled the correct way in order to save you money.</p>
+               </div>       
+                      </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+                      Will aJust handle my denied medical claim?</a>
+                  </h4>
+                </div>
+                <div id="collapse9" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Yes. Simply contact us via text or phone 
+                      so we can understand the specifics of your situation and we can determine how we can help you.</p>
+                      </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">
+                      Can aJust help me prepare an appeal letter to an insurance company?</a>
+                  </h4>
+                </div>
+                <div id="collapse10" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Our aJust experts are here to help you with 100% of the appeals process. This means that,
+                       not only will we help you prepare the appeal letter, but we’ll also take care of the entire fight—from 
+                       additional paperwork to internal and external reviews. Once you’ve filled out the form and submitted the receipt, 
+                       you can rest assured knowing your appeal is in our hands.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+                      Do aJust and denial claim attorneys work the same way?</a>
+                  </h4>
+                </div>
+                <div id="collapse11" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>While both aJust and claim attorneys can help you fight 
+                      health insurance claim denials, there are some key differences in 
+                      the way they go about this. A health insurance lawyer may charge a high hourly rate or a 
+                      hefty fee up front before you know whether or not you will win your appeal. With aJust, you only pay a 
+                      percentage of your reimbursement once you’ve won your appeal. If the appeal is unsuccessful, there is <strong>no cost to you.</strong></p>
+                   </div>
+                </div>
+              </div>
+            </div>
+  
+  
+  
+  
+  
+  
+            
+          </div>
+        </div>
+        <div class="FAQ-img col-md-6">
+          <img src="images/img-faq-tall.svg"/>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- SECTION 9 -->
+<div class="section-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sect3-head">
+          <h2>Recent Posts</h2>
+        </div>
+        <div class="posts col-md-4">
+          <a> <img src="images/HOW-TO-NEGOTIATE-MEDICAL-BILLS.avif">
+          <div class="post-deets">
+            <h4>Understanding the Minimum Monthly Payment on Medical Bills and Effective Strategies</h4>
+            <p>Dealing with medical bills can be a complex and overwhelming process. Understanding the concept of</p>
+          </div>
+          <span class="post-meta">Jun 6, 2023</span>
+          </a>
+        </div>
+
+        <div class="posts col-md-4">
+          <a> <img src="images/Appeal-Denied-Claim-What-Next.avif"><div class="post-deets">
+            <h4>Health Insurance Claim Denied: What’s Next?</h4>
+            <p>Dealing with a denied health insurance claim can be frustrating and overwhelming. However, it's essential</p>
+          </div>
+          <span class="post-meta">May 18, 2023</span></a>
+        </div>
+
+        <div class="posts col-md-4">
+          <a> <img src="images/5-Effective-Tips-for-Negotiating-Medical-Bills-Avoiding-Financial-Strain.avif"><div class="post-deets">
+            <h4>5 Effective Tips for Negotiating Medical Bills: Avoiding Financial Strain</h4>
+            <p>Medical bills can be a significant source of stress for individuals and families. Negotiating medical</p>
+          </div>
+          <span class="post-meta">May 1, 2023</span></a>
+        </div>
+
+    
+       
+
+      </div>
+    </div>
+  </div>
+
+
+</div>
+<!-- FOOTER -->
+<footer>
+
+    
+    <div class="footer row">   
+      <div class="col-md-12">
+      <div class="container">
+        <div class="footer-left-wrapper">
+        <div class="footer-left">
+          <ul>
+            <div class="item">
+            <li>
+              <a href="#">About us</a>
+            </li
+            ><li>
+              <a href="#">Customer care</a>
+            </li>
+          </div>
+
+            <div class="item">
+              <li>
+              <a href="#">Filing a claim</a>
+            </li>
+            <li>
+              <a href="#">Appealing a denied claim</a>
+            </li>
+          </div>
+            
+            <div >
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+          </div>
+            
+            </ul>
+         <div class="footer-copyright">
+              <div class="footer-copyright-links">
+                                          <a href="#">Authorization Agreement</a>
+                              <a href="#">Terms and conditions</a>
+                              <a href="#">Privacy Policy</a>
+                              <a href="#">Glossary of healthcare terms </a>
+                  
+              </div>
+              <span>© 2021 aJust Solutions</span>
+            </div>
+
+        </div>
+        </div>
+
+        <div class="footer-right-wrapper">
+        <div class="footer-right">
+          <a class="footer-logo"><img src="images/Group-160.svg" ></a>
+          <a  class="tel">
+            <img src="images/ico-s-phone-2.svg">
+            (855) 657-3311</a>
+          <a class="tel" >
+            <img src="images/ico-s-email.svg">
+            care@54.144.78.138</a>	
+        </div>
+      </div>
+            </div>  
+          </div> 
+          </div>
+  
+</footer>
+
+
+</div>
+
+
+
+
+
+
+
+<script>
+  function showForm(formNumber) {
+   
+    document.getElementById('form1').style.display = 'none';
+    document.getElementById('form2').style.display = 'none';
+    document.getElementById('form3').style.display = 'none';
+
+    document.getElementById('form' + formNumber).style.display = 'block';
+  }
+
+  function submitForm() {
+   
+    alert('Form submitted!');
+  }
+
+  showForm(1);
+</script>
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>

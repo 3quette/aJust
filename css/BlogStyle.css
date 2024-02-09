@@ -1,0 +1,58 @@
+.blog .sect2-head h1:after {
+    content: "";
+    bottom: 83%;
+    position: absolute;
+    left: 24px;
+    width: 161px;
+    height: 8px;
+    background: #00CAB2;
+    border-radius: 3px;
+}
+
+.sect2-head h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 116px;
+}
+    .media{
+        margin-bottom: 34px;
+}
+.media .media-left img {
+    width: 100%;
+    height: 137px;
+    border-radius: 14px;
+    object-fit: cover;
+    margin-right: 47px;
+}
+.media-heading{
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c4974;
+    margin-bottom: 20px;
+}
+.blog-cat {
+    background: #F4F5F7;
+    border-radius: 13px;
+    padding: 35px 38px 28px;
+    margin: 195px 0 32px;
+    
+}
+.blog-cat-list {
+    border-top: 1px solid #94B7EB;
+    padding-top: 30px;
+   
+}
+.blog-cat h4{
+
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c4974;
+}
+.blog-cat-list li{
+font-size: 18px;
+
+}
+.blog-cat-list a{
+    color: #2c4974;
+    margin-left: -35px;
+}

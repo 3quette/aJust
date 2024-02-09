@@ -1,0 +1,130 @@
+.pricing-section-10{
+    display: flex;
+    justify-content: center;
+}
+.price-head h2{
+    color:white;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+
+}
+.price-head{
+    margin-top: 100px;
+    margin-bottom: -50px;
+  
+}
+.price-head h1{
+    color:#2c4974;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    font-size: 63px;
+
+}
+.pricing-section-10 .pricing-tab{
+    border-radius: 8px;
+    background-color: #fff;
+    width: auto;
+}
+.pricing-sect-tab {
+    max-width: 880px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 137px;
+    margin-top: 50px;
+}
+.pricing-sect-tab .pricing_page-left {
+    max-width: 400px;
+    width: 100%;
+}
+.pricing-sect-tab .pricing_page-left .pricing-tabs {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+    -webkit-box-shadow: 0 0 50px rgba(0,0,0,.08);
+    box-shadow: 0 0 50px rgba(0,0,0,.08);
+    border-radius: 8px;
+}
+.pricing-sect-tab .pricing_page-left .pricing-tabs h3 {
+    border-radius: 8px 8px 0 0;
+    padding: 28px 0;
+    background: #00cab2;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.pricing-sect-tab .pricing_page-left .pricing-tabs .pricing-tab-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 24px 48px;
+}
+.pricing-sect-tab .pricing_page-left .pricing-tabs .pricing-tab-content span {
+    margin-bottom: 17px;
+    display: block;
+    font-family: Inter Bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #223552;
+    margin-top: 190px;
+    text-align: center;
+}
+.pricing-sect-tab .pricing_page-left .pricing-tabs .pricing-tab-content p {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.pricing-sect-tab .pricing_page-right {
+    max-width: 400px;
+    width: 100%;
+}
+.pricing-sect-tab  .pricing_page-right .pricing-tabs {
+    height: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0 0 50px rgba(0,0,0,.08);
+    box-shadow: 0 0 50px rgba(0,0,0,.08);
+    border-radius: 8px;
+   
+}
+
+.pricing-sect-tab  .pricing_page-right .pricing-tabs h3 {
+    border-radius: 8px 8px 0 0;
+    padding: 28px 0;
+    background: #2967c2;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 32px;
+}
+.file-cliam-contnet{
+    padding: 0 24px 48px;
+}
